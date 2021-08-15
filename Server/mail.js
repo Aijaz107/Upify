@@ -8,7 +8,7 @@ const mail=(data)=>{
         service: 'gmail',
         auth: {
           user: 'upify.tech@gmail.com',
-          pass: 'miniproject'
+          pass: ''
         }
       });
       
@@ -18,12 +18,12 @@ const mail=(data)=>{
           viewPath:'./views',
       }));
       
-      //mohammedsameeruddin272001@gmail.com,n6304249@gmail.com,
+
       var mailOptions = {
         from: 'upify.tech@gmail.com',
-        to: 'mohdaijazahmed2000@gmail.com',
+        to: '',
       //   cc:'',
-        bcc:'mohammedsameeruddin272001@gmail.com,n6304249@gmail.com',
+        bcc:'',
         subject: "UPIFY-TECH",
         text: `<h1>hello   jjjjj</h1>`,
       //   attachments:[
